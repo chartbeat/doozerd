@@ -5,11 +5,8 @@ then
     export GOROOT
 fi
 
-PKG_REQS="
-    goprotobuf.googlecode.com/hg/proto
-    github.com/bmizerany/assert
-    github.com/ha/doozer
-"
+# removed PKG_REQS as we resolve these dependencies on our own`
+PKG_REQS=""
 
 PKGS="
     quiet
